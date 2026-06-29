@@ -1,29 +1,16 @@
 {
   "name": "SmartQuest PH",
   "short_name": "SmartQuest",
-  "start_url": "./",
+  "description": "Offline quiz battle app with a local Knowledge DB and token-free quiz generator.",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f5ff",
   "theme_color": "#6c5ce7",
-  "description": "A gamified Grade 4 reviewer app inspired by daily learning platforms.",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='48' fill='%236c5ce7'/%3E%3Ctext x='96' y='122' text-anchor='middle' font-size='88'%3E%E2%9A%94%EF%B8%8F%3C/text%3E%3C/svg%3E",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "any",
       "type": "image/svg+xml"
     }
-  ],
-  "scope": "./"
+  ]
 }
