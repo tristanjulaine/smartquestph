@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6c5ce7" />
+  <title>SmartQuest PH</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">SmartQuest PH</p>
+        <h1 id="screenTitle">Learning Adventure</h1>
+      </div>
+      <button class="icon-btn" id="resetBtn" title="Reset local progress">↻</button>
+    </header>
+
+    <main id="app"></main>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button data-screen="home" class="nav-btn active">🏠<span>Home</span></button>
+      <button data-screen="quest" class="nav-btn">⚔️<span>Fight</span></button>
+      <button data-screen="practice" class="nav-btn">📚<span>Practice</span></button>
+      <button data-screen="progress" class="nav-btn">📊<span>Progress</span></button>
+    </nav>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
